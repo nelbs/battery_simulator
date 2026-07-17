@@ -1,0 +1,3 @@
+recalculate:
+  name: Recalculate
+  description: Re-read long-term statistics and rerun all battery simulations.

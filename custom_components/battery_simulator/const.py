@@ -1,0 +1,28 @@
+"""Constants for Battery Simulator."""
+
+DOMAIN = "battery_simulator"
+PLATFORMS = ["sensor"]
+
+CONF_IMPORT_ENTITY = "import_entity"
+CONF_EXPORT_ENTITY = "export_entity"
+CONF_SOLAR_ENTITY = "solar_entity"
+CONF_CAPACITY = "capacity"
+CONF_BATTERY_POWER = "battery_power"
+CONF_PURCHASE_COST = "purchase_cost"
+CONF_BUY_PRICE = "buy_price"
+CONF_SELL_PRICE = "sell_price"
+CONF_EXPORT_COST = "export_cost"
+
+DEFAULT_CAPACITY = 10.0
+DEFAULT_BATTERY_POWER = 5.0
+DEFAULT_PURCHASE_COST = 7000.0
+DEFAULT_BUY_PRICE = 0.30
+DEFAULT_SELL_PRICE = 0.08
+DEFAULT_EXPORT_COST = 0.0
+DEFAULT_ROUNDTRIP_EFFICIENCY = 0.90
+DEFAULT_MIN_SOC_FRACTION = 0.05
+
+SERVICE_RECALCULATE = "recalculate"
+
+CACHE_STORAGE_VERSION = 1
+CACHE_STORAGE_KEY = f"{DOMAIN}.cache"
